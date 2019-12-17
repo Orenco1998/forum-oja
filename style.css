@@ -1,0 +1,56 @@
+
+.colGlobal{
+    display:flex;
+
+}
+.col{
+    flex-grow: 1;
+    width: 50%;
+    background-color:#eee;
+    margin:20px;
+    padding:20px;
+    text-align:center ;
+    vertical-align: center;
+}
+h1,h2,h3,p{
+    font-family: Montserrat;
+}
+
+.button{
+
+    padding:7px;
+    border:2px solid #ccc;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #94c11f;
+    font-size: 20px;
+}
+
+.button:hover{
+
+    padding:7px;
+    border:2px solid #ccc;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #4e6819;
+    color: #eeeeee;
+    font-size: 20px;
+}
+header
+{
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+
+}
+#logo{
+    width: 42%;
+    margin-left: 28%;
+}
+
+#col span {
+    /* Aligne le texte verticalement au milieu */
+    vertical-align:middle;
+    display: table-cell;
+}
+
