@@ -1,6 +1,6 @@
 <?php
 
-$user = 'oren_bdd';
+$user = 'oren_forum-oja';
 $password = 'Institutg4!';
 $host = 'mysql-oren.alwaysdata.net';
 $nom_base = 'oren_forum-oja';
