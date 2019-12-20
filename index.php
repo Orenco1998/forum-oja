@@ -24,7 +24,7 @@
     <div class="col">
     <h2>Se connecter</h2>
     <form action="login.php" method="post">
-        <div><p>Adresse Mail : <input type="text" name="name" /></div>
+        <div><p>Adresse Mail : <input type="email" name="email" /></div>
         <div><p>Mot de Passe : <input type="text" name="password" /></p></div>
         <p><input class="button" type="submit" value="Se Connecter"></p>
     </form>
