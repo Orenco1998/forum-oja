@@ -1,12 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: orencohen
- * Date: 28/10/2019
- * Time: 17:31
- */
-session_start();
-include 'base.php';
 
 $email = $_POST['email'];
 $password = md5($_POST['password']);

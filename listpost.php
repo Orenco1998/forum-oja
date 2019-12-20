@@ -2,6 +2,9 @@
 
 <script src="https://cdn.ckeditor.com/ckeditor5/16.0.0/classic/ckeditor.js"></script>
 
+<div > <a id="haut"></a>
+ </div>
+
 <headerpage>
     <img src="../forum-oja/img/logo.png" alt= "Logo" id="logopage"/>
 </headerpage>
@@ -30,6 +33,11 @@
         <p><input class="button" type="submit" value="Envoyer"></p>
     </form>
 </div>
+<div class=ancadre>
+    <a href="#haut">haut de page</a>  
+</div>
+
+
 <script>
     ClassicEditor
         .create( document.querySelector( '#editor' ) )
