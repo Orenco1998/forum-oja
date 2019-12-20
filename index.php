@@ -15,6 +15,34 @@
         }
     }
 </script>
+<?php
+    if($_GET['error'] == 1) { ?>
+        <div class="message">
+
+                <?php
+
+                echo "Mot de passe ou email incorrect";
+
+                ?>
+
+        </div>
+        <?php
+    }
+    else if($_GET['error'] == 2) {
+        ?>
+        <div class="message">
+
+                <?php
+
+                echo "Adresse mail ou pseudo déjà existant.";
+
+                ?>
+
+        </div>
+        <?php
+    }
+?>
+
 
 <headerhome>
     <img src="../forum-oja/img/logo.png" alt= "Logo" id="logohome"/>

@@ -1,4 +1,10 @@
+.message{
 
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: red;
+}
 .colGlobal{
     display:flex;
 
@@ -73,13 +79,19 @@ headerpage
     width: 50%;
     margin-left: 26%;
 }
-table {
+.table {
     border: medium solid #000000;
-    width: 50%;
+    width: 50%
+    margin: 5%
+
 }
-td, th {
+.tdpetit {
     border: thin solid #6495ed;
-    width: 50%;
+    width: 20%;
+}
+.tdgrand {
+    border: thin solid #6495ed;
+    width: 80%;
 }
 .ancadre{
     text-align:center ;
