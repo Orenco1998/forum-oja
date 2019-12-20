@@ -16,9 +16,9 @@
     }
 </script>
 
-<header>
-    <img src="../forum-oja/img/logo.png" alt= "Logo" id="logo"/>
-</header>
+<headerhome>
+    <img src="../forum-oja/img/logo.png" alt= "Logo" id="logohome"/>
+</headerhome>
 
 <div class="colGlobal">
     <div class="col">
