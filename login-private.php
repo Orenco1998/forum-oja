@@ -13,7 +13,9 @@ function login($email, $password)
     if ($tab = mysqli_fetch_array($res)) {
 
         session_start();
-        $_SESSION['login'] = 'ok';
+        $_SESSION['email'] = $email;
+        $_SESSION['password'] = $password;
+
         header('location:listpost.php');
     } else {
         header('location:index.php?error=1');
