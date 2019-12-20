@@ -11,6 +11,15 @@ $checkPassword = md5($_POST['checkpassword']);
 
 $succes = mail($email, 'Inscription au forum Oja', 'Vote commpte à bien été enregistré.');
 
+function valid_email($str) {
+    return (!preg_match("/^([a-z0-9\+_\-]+)(\.[a-z0-9\+_\-]+)*@([a-z0-9\-]+\.)+[a-z]{2,6}$/ix", $str)) ? FALSE : TRUE;
+}
+if(!valid_email($email)){
+    echo "Invalid email address.";
+}else{
+    echo "Valid email address.";
+}
+
 
 if($succes) {
     echo 'Votre mail à bien été envoyé';
