@@ -45,11 +45,12 @@ h1,h2,h3,p{
     color: #eeeeee;
     font-size: 20px;
 }
-headerhome
+header
 {
     display: inline-block;
     vertical-align: top;
     width: 100%;
+    margin-top: 4%;
 
 }
 headerpage
@@ -97,4 +98,20 @@ headerpage
     text-align:center ;
     background-color: #94c11f;
 }
+
+nav {
+    background: #94c11f;
+    border: 1px solid black;
+    line-height: 60px; }
+nav ul {
+    margin: 0;
+    padding: 0; }
+nav li {
+    display: inline-block; }
+nav li a {
+    padding: 0 25px;
+    line-height: 60px;
+    display: inline-block; }
+nav .right {
+    text-align: right; }
 

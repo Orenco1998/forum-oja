@@ -19,11 +19,9 @@
     if($_GET['error'] == 1) { ?>
         <div class="message">
 
-                <?php
 
-                echo "Mot de passe ou email incorrect";
+                <h1> Mot de passe ou email incorrect</h1>
 
-                ?>
 
         </div>
         <?php
@@ -32,21 +30,24 @@
         ?>
         <div class="message">
 
-                <?php
+            <h1>Adresse mail ou pseudo déjà existant.</h1>
 
-                echo "Adresse mail ou pseudo déjà existant.";
-
-                ?>
-
+        </div>
+        <?php
+    }
+    else if($_GET['error'] == 3) {
+        ?>
+        <div class="message">
+            <h1>Veuillez vous reconnecté si vous souhaitez retourner sur le forum.</h1>
         </div>
         <?php
     }
 ?>
 
 
-<headerhome>
+<header>
     <img src="../forum-oja/img/logo.png" alt= "Logo" id="logohome"/>
-</headerhome>
+</header>
 
 <div class="colGlobal">
     <div class="col">

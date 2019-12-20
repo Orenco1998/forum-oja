@@ -2,12 +2,25 @@
 
 <script src="https://cdn.ckeditor.com/ckeditor5/16.0.0/classic/ckeditor.js"></script>
 
-<div > <a id="haut"></a>
+ <?php
+ session_start();
+ if(isset($_SESSION['email']))
+ {
+     ?>
+
+<div> <a id="haut"></a>
  </div>
 
-<headerpage>
+     <nav>
+         <div class="right">
+             <ul>
+                 <li><a href="../forum-oja/signout.php">Deconnexion</a></li>
+             </ul>
+         </div>
+     </nav>
+<header>
     <img src="../forum-oja/img/logo.png" alt= "Logo" id="logopage"/>
-</headerpage>
+</header>
 <div class="centercol">
     <h2>Les Posts</h2>
     <table summary="exemple de structure d'un tableau de données 2 lignes, 2 colonnes">
@@ -39,6 +52,14 @@
 <div class=ancadre>
     <a href="#haut">haut de page</a>  
 </div>
+
+     <?php
+
+ }
+ else{
+     header('location:index.php?error=3');
+ }
+ ?>
 
 
 <script>
