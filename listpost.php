@@ -1,4 +1,8 @@
- <head><link href="style.css" rel="stylesheet" media="all" type="text/css"> </head>
+ <head>
+     <link href="style.css" rel="stylesheet" media="all" type="text/css">
+     <meta name="description" content="Liste des posts Oja, Un forum pas comme les autres."/>
+     <meta name="keywords" content="liste,posts,forum,oja,institut g4,projet,oren,jonas,anthony,php,partage,connaissances">
+ </head>
 
 <script src="https://cdn.ckeditor.com/ckeditor5/16.0.0/classic/ckeditor.js"></script>
 
