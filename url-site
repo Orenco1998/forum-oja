@@ -3,3 +3,5 @@ user : oren_forum-oja
 $password : Institutg4!
 host: mysql-oren.alwaysdata.net
 nom_base: oren_forum-oja
+user-admin: orencohen2652@gmail.com
+password-admin: 123456

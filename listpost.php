@@ -1,4 +1,7 @@
- <head><link href="style.css" rel="stylesheet" media="all" type="text/css"> </head>
+ <head>
+     <link href="style.css" rel="stylesheet" media="all" type="text/css">
+     <link rel="shortcut icon" type="image/png" href="img/logo.png"/>
+ </head>
 
 <script src="https://cdn.ckeditor.com/ckeditor5/16.0.0/classic/ckeditor.js"></script>
 
@@ -98,7 +101,7 @@
                  <p><input class="button" type="submit" value="Envoyer"></p>
              </form>
          </div>
-         <div class=ancadre>
+         <div class="ancadre">
              <a href="#haut">haut de page</a>
          </div>
 

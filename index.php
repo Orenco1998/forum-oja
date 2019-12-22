@@ -1,5 +1,7 @@
-<head><link href="style.css" rel="stylesheet" media="all" type="text/css"> </head>
-<script>
+<head>
+    <link href="style.css" rel="stylesheet" media="all" type="text/css">
+    <link rel="shortcut icon" type="image/png" href="img/logo.png"/>
+</head><script>
     var check = function() {
         if (document.getElementById('password').value ==
             document.getElementById('checkpassword').value) {
