@@ -1,7 +1,10 @@
 <head>
     <link href="style.css" rel="stylesheet" media="all" type="text/css">
     <link rel="shortcut icon" type="image/png" href="img/logo.png"/>
-</head><script>
+    <meta name="description" content="Page d'accueil d'Oja, Un forum pas comme les autres."/>
+    <meta name="keywords" content="accueil,forum,oja,institut g4,projet,oren,jonas,anthony,php,partage,connaissances">
+</head>
+<script>
     var check = function() {
         if (document.getElementById('password').value ==
             document.getElementById('checkpassword').value) {
@@ -40,7 +43,7 @@
     else if($_GET['error'] == 3) {
         ?>
         <div class="message">
-            <h1>Veuillez vous reconnecté si vous souhaitez retourner sur le forum.</h1>
+            <h1>Veuillez vous reconnecter si vous souhaitez retourner sur le forum.</h1>
         </div>
         <?php
     }
