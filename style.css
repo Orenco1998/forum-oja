@@ -81,11 +81,25 @@ headerpage
     margin-left: 26%;
 }
 table {
-    border: medium solid #000000;
     width: 50%;
     margin-left: 25%;
+    margin-bottom: 2%;
+}
+.delete-post-container{
+    float: right;
+    margin-right: 17%;
+    margin-top: 1%;
+    background: red;
+}
+
+.delete-post{
+    background: red;
 
 }
+.title{
+    border-style: groove;
+}
+
 .tdpetit {
     border: thin solid #6495ed;
     width: 20%;
@@ -113,7 +127,9 @@ nav li a {
     line-height: 60px;
     display: inline-block; }
 nav .right {
-    text-align: right; }
+    text-align: right;
+    display: flex;
+}
 
 .pagination {
     height: 36px;

@@ -1,25 +1,32 @@
+<!doctype html>
+<html lang="fr">
 <head>
+    <meta charset="utf-8">
+    <title>Liste des postes</title>
     <link href="style.css" rel="stylesheet" media="all" type="text/css">
     <link rel="shortcut icon" type="image/png" href="img/logo.png"/>
-    <meta name="description" content="Page d'accueil d'Oja, Un forum pas comme les autres."/>
-    <meta name="keywords" content="accueil,forum,oja,institut g4,projet,oren,jonas,anthony,php,partage,connaissances">
-</head>
-<script>
-    var check = function() {
-        if (document.getElementById('password').value ==
-            document.getElementById('checkpassword').value) {
-            document.getElementById('message').style.color = 'green';
-            document.getElementById('message').innerHTML = 'matching';
-            document.getElementById('submit').disabled = false;
+    <meta name="description" content="Liste des posts Oja, Un forum pas comme les autres."/>
+    <meta name="keywords" content="liste,posts,forum,oja,institut g4,projet,oren,jonas,anthony,php,partage,connaissances">
+    <script>
+        var check = function() {
+            if (document.getElementById('password').value ==
+                document.getElementById('checkpassword').value) {
+                document.getElementById('message').style.color = 'green';
+                document.getElementById('message').innerHTML = 'matching';
+                document.getElementById('submit').disabled = false;
 
-        } else {
-            document.getElementById('message').style.color = 'red';
-            document.getElementById('message').innerHTML = 'not matching';
-            document.getElementById('submit').disabled = true;
+            } else {
+                document.getElementById('message').style.color = 'red';
+                document.getElementById('message').innerHTML = 'not matching';
+                document.getElementById('submit').disabled = true;
 
+            }
         }
-    }
-</script>
+    </script>
+
+</head>
+<body>
+
 <?php
     if($_GET['error'] == 1) { ?>
         <div class="message">
@@ -59,7 +66,7 @@
     <h2>Se connecter</h2>
     <form action="login.php" method="post">
         <div><p>Adresse Mail : <input type="email" name="email" /></div>
-        <div><p>Mot de Passe : <input type="text" name="password" /></p></div>
+        <div><p>Mot de Passe : <input type="password" name="password" /></p></div>
         <p><input class="button" type="submit" value="Se Connecter"></p>
     </form>
 </div>
@@ -79,3 +86,7 @@
     </form>
 </div>
 </div>
+
+
+</body>
+</html>

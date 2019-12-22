@@ -9,7 +9,7 @@ $email = $_POST['email'];
 $password = md5($_POST['password']);
 $checkPassword = md5($_POST['checkpassword']);
 
-$succes = mail($email, 'Inscription au forum Oja', 'Vote commpte à bien été enregistré.');
+$succes = mail($email, 'Inscription au forum Oja', 'Vote compte à bien été enregistré.');
 
 function valid_email($str) {
     return (!preg_match("/^([a-z0-9\+_\-]+)(\.[a-z0-9\+_\-]+)*@([a-z0-9\-]+\.)+[a-z]{2,6}$/ix", $str)) ? FALSE : TRUE;
